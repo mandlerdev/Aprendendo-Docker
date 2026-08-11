@@ -7,6 +7,6 @@ router.post('/cadastro', createUser )
 
 router.get('/todos', getAllUsers)
 
-router.delete('/deletar', deleteUser)
+router.delete('/deletar/:id', deleteUser)
 
 export default router
