@@ -1,5 +1,5 @@
 import express from 'express'
-import userRoutes from './routes.js'
+import userRoutes from './routes.jnpm install --save sequelizes'
 
 
 const app = express()
