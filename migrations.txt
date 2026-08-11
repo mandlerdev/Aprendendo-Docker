@@ -1,0 +1,3 @@
+npm run migration:generate -- --name create-users
+
+npm run db:migrate
