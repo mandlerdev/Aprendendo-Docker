@@ -1,0 +1,12 @@
+import express from 'express'
+import { createUser, deleteUser, getAllUsers } from './controllers/userController.js'
+
+const router = express.Router()
+
+router.post('/cadastro', createUser )
+
+router.get('/todos', getAllUsers)
+
+router.delete('/deletar', deleteUser)
+
+export default router
